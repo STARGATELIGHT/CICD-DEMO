@@ -7,7 +7,7 @@ pipeline{
        stage("Git Download"){
 
         steps{
-            git branch: 'main', url: 'https://github.com/clemenrance/DEVOPS-PROJECT1.git'
+            git branch: 'main', url: 'https://github.com/STARGATELIGHT/CICD-DEMO.git'
         }
        }
        stage("Unit Test"){
